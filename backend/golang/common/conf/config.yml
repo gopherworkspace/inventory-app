@@ -1,0 +1,25 @@
+#Link - https://dev.to/ilyakaznacheev/a-clean-way-to-pass-configs-in-a-go-application-1g64
+
+
+
+# Server configurations
+server:
+  host: "localhost"
+  port: 8080
+  serverAddress: "127.0.0.1:8080"
+
+# Database credentials
+database:
+  user: "admin"
+  pass: "super-pedro-1980"
+  mongoUrl: "127.0.0.1"
+  dbName: "inventoryDB"
+  userCollecion: "user"
+
+#JWT TOKEN
+jwt:
+  key: "coaching_key"
+
+# Rabbit MQ
+
+
